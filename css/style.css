@@ -5,6 +5,28 @@ body{
 }
 
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e74c3c;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
 /* Preloader styles */
 #preloader {
     position: fixed;
@@ -524,7 +546,9 @@ body.loaded #preloader {
     opacity: 1;
     transform: scale(1);
 }
-
+.image-box{
+    margin-bottom: 50px;
+}
 .image-box img {
     width: 100%;
     height: 250px; 
